@@ -85,7 +85,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "aftech_solution",         # Your PostgreSQL database name
         "USER": "postgres",       # Your PostgreSQL username
-        "PASSWORD": "200104", # Your PostgreSQL password
+        "PASSWORD": "capetown2025", # Your PostgreSQL password
         "HOST": "localhost",         # Or 'localhost'
         "PORT": "5433",              # PostgreSQL default port
     }
