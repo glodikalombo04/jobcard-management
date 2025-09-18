@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-%y68sv=+^8go90o6s7apt+j=%q)tpc=4ms-qfzovrns6m)k33e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "161.35.203.150"]
 
 
 # Application definition
@@ -127,6 +127,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -150,6 +151,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5190",  # React dev server
-
+    "http://localhost:5190",
+    "http://161.35.203.150", 
+    # React dev server
 ]
