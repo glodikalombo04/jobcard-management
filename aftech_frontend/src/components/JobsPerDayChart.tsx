@@ -41,7 +41,7 @@ export default function JobsPerDayChart({
 
       try {
         const res = await fetchWithAuth(
-          `http://127.0.0.1:9300/api/jobcards/stats/jobs-per-day/?${params.toString()}`
+          `/jobcards/stats/jobs-per-day/?${params.toString()}`
         );
         const json = await res.json();
         setData(json);

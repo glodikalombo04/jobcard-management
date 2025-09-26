@@ -15,7 +15,7 @@ const JobTypePage = () => {
 
   const loadJobTypes = async () => {
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/job-types/"
+      "/jobcards/job-types/"
     );
     if (response && response.ok) {
       const data: JobType[] = await response.json();
@@ -32,7 +32,7 @@ const JobTypePage = () => {
   const handleSubmit = async (name: string) => {
     if (modalMode === "create") {
       const response = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/job-types/",
+        "/jobcards/job-types/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -47,7 +47,7 @@ const JobTypePage = () => {
       }
     } else if (modalMode === "edit" && selectedJobType) {
       const response = await fetchWithAuth(
-        `http://127.0.0.1:9300/api/jobcards/job-types/${selectedJobType.id}/`,
+        `/jobcards/job-types/${selectedJobType.id}/`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

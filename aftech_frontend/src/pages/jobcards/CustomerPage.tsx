@@ -33,7 +33,7 @@ const CustomersPage = () => {
 
   const loadCustomers = async () => {
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/customers/"
+      "/jobcards/customers/"
     );
     if (response && response.ok) {
       const data: Customer[] = await response.json();
@@ -51,7 +51,7 @@ const CustomersPage = () => {
 
   const loadRegions = async () => {
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/regions/"
+      "/jobcards/regions/"
     );
     if (response.ok) {
       const data: RegionOption[] = await response.json();
@@ -94,7 +94,7 @@ const CustomersPage = () => {
     if (!regionObj) return;
 
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/customers/",
+      "/jobcards/customers/",
       {
         method: "POST",
         headers: {

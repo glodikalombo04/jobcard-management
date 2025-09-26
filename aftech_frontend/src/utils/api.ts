@@ -1,47 +1,50 @@
 // src/utils/api.ts
+import { API_BASE_URL } from "../config";
 
 export const fetchWithAuth = async (
-    url: string,
-    options: RequestInit = {}
-  ): Promise<Response> => {
-    let accessToken = localStorage.getItem("access");
-    const refreshToken = localStorage.getItem("refresh");
-  
-    const authOptions: RequestInit = {
-      ...options,
-      headers: {
-        ...(options.headers || {}),
-        Authorization: `Bearer ${accessToken}`,
-        "Content-Type": "application/json",
-      },
-    };
-  
-    let response = await fetch(url, authOptions);
-  
-    // If token is expired
-    if (response.status === 401 && refreshToken) {
-      const refreshResponse = await fetch("http://127.0.0.1:9200/api/token/refresh/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ refresh: refreshToken }),
-      });
-  
-      if (refreshResponse.ok) {
-        const data = await refreshResponse.json();
-        localStorage.setItem("access", data.access);
-        authOptions.headers = {
-          ...authOptions.headers,
-          Authorization: `Bearer ${data.access}`,
-        };
-        // Retry original request
-        response = await fetch(url, authOptions);
-      } else {
-        // If refresh also fails, optionally redirect to login
-        localStorage.clear();
-        window.location.href = "/";
-      }
-    }
-  
-    return response;
+  path: string,
+  options: RequestInit = {}
+): Promise<Response> => {
+  const accessToken = localStorage.getItem("access");
+  const refreshToken = localStorage.getItem("refresh");
+
+  // Build full URL
+  const url = path.startsWith("http") ? path : `${API_BASE_URL}${path}`;
+
+  // Force headers into a mutable string map
+  const headers: Record<string, string> = {
+    ...(options.headers as Record<string, string>),
   };
-  
+
+  if (accessToken) {
+    headers["Authorization"] = `Bearer ${accessToken}`;
+  }
+
+  if (options.body && !headers["Content-Type"]) {
+    headers["Content-Type"] = "application/json";
+  }
+
+  let response = await fetch(url, { ...options, headers });
+
+  // Refresh token if needed
+  if (response.status === 401 && refreshToken) {
+    const refreshResponse = await fetch(`${API_BASE_URL}/token/refresh/`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ refresh: refreshToken }),
+    });
+
+    if (refreshResponse.ok) {
+      const data = await refreshResponse.json();
+      localStorage.setItem("access", data.access);
+
+      headers["Authorization"] = `Bearer ${data.access}`;
+      response = await fetch(url, { ...options, headers });
+    } else {
+      localStorage.clear();
+      window.location.href = "/";
+    }
+  }
+
+  return response;
+};

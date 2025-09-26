@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchWithAuth } from "../../utils/api";
 
+
 type Technician = {
   id: number;
   name: string;
@@ -41,7 +42,7 @@ const TechnicianPage = () => {
 
   const loadTechnicianDetail = async (id: number) => {
     const response = await fetchWithAuth(
-      `http://127.0.0.1:9300/api/jobcards/technicians/${id}/`
+      `/jobcards/technicians/${id}/`
     );
 
     if (response.ok) {
@@ -60,7 +61,7 @@ const TechnicianPage = () => {
 
   const loadTechnicians = async () => {
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/technicians/"
+      `/jobcards/technicians/`
     );
 
     if (response && response.ok) {
@@ -81,7 +82,7 @@ const TechnicianPage = () => {
 
   const loadRegions = async () => {
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/regions/"
+      `/jobcards/regions/`
     );
 
     if (response.ok) {
@@ -114,7 +115,7 @@ const TechnicianPage = () => {
     if (!regionObj) return;
 
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/technicians/",
+      `/jobcards/technicians/`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -158,7 +159,7 @@ const TechnicianPage = () => {
     if (!regionObj) return;
 
     const response = await fetchWithAuth(
-      `http://127.0.0.1:9300/api/jobcards/technicians/${editingTechnician.id}/`,
+      `/jobcards/technicians/${editingTechnician.id}/`,
       {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },

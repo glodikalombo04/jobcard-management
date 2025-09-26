@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode"; // ✅ correct
+import { API_BASE_URL } from "./config";
+
+
+
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -13,7 +17,7 @@ const Login = () => {
     setError("");
 
     try {
-      const response = await fetch("http://127.0.0.1:9300/api/token/", {
+      const response = await fetch(`${API_BASE_URL}/token/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
@@ -35,7 +39,7 @@ const Login = () => {
         setError(data.detail || "Invalid login");
       }
     } catch {
-      setError("Server error");
+      setError("Server error unable to log you in");
     }
   };
 

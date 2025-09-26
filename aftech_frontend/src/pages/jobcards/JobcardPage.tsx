@@ -80,7 +80,7 @@ const JobCardPage = () => {
     try {
       const payload = { name: newCustomerName, region: Number(selectedRegion) };
       const response = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/customers/",
+        "/jobcards/customers/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -103,7 +103,7 @@ const JobCardPage = () => {
     const fetchJobCards = async () => {
       try {
         const response = await fetchWithAuth(
-          "http://127.0.0.1:9300/api/jobcards/jobcards/"
+          "/jobcards/jobcards/"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch job cards");
@@ -128,7 +128,7 @@ const JobCardPage = () => {
   const fetchRegions = async () => {
     try {
       const response = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/regions/"
+        "/jobcards/regions/"
       );
       const data = await response.json();
       setRegions(data);
@@ -141,10 +141,10 @@ const JobCardPage = () => {
     try {
       const [techRes, custRes] = await Promise.all([
         fetchWithAuth(
-          `http://127.0.0.1:9300/api/jobcards/technicians/?region=${regionId}`
+          `/jobcards/technicians/?region=${regionId}`
         ),
         fetchWithAuth(
-          `http://127.0.0.1:9300/api/jobcards/customers/?region=${regionId}`
+          `/jobcards/customers/?region=${regionId}`
         ),
       ]);
 
@@ -158,9 +158,9 @@ const JobCardPage = () => {
   const fetchJobcardMeta = async () => {
     try {
       const [jtRes, saRes, accRes] = await Promise.all([
-        fetchWithAuth("http://127.0.0.1:9300/api/jobcards/job-types/"),
-        fetchWithAuth("http://127.0.0.1:9300/api/jobcards/support-agents/"),
-        fetchWithAuth("http://127.0.0.1:9300/api/jobcards/accessories/"),
+        fetchWithAuth("/jobcards/job-types/"),
+        fetchWithAuth("/jobcards/support-agents/"),
+        fetchWithAuth("/jobcards/accessories/"),
       ]);
 
       if (jtRes.ok) setJobTypes(await jtRes.json());
@@ -193,7 +193,7 @@ const JobCardPage = () => {
       console.log("Payload being sent:", payload);
 
       const response = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/jobcards/",
+        "/jobcards/jobcards/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -210,7 +210,7 @@ const JobCardPage = () => {
 
       // Refresh the jobcards list
       const updated = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/jobcards/"
+        "/jobcards/jobcards/"
       );
       if (updated.ok) {
         setJobCards(await updated.json());
@@ -229,12 +229,12 @@ const JobCardPage = () => {
 
   // Fetch technicians & customers directly
   const techRes = await fetchWithAuth(
-    `http://127.0.0.1:9300/api/jobcards/technicians/?region=${
+    `/jobcards/technicians/?region=${
       regions.find((r) => r.name === card.region_name)?.id || ""
     }`
   );
   const custRes = await fetchWithAuth(
-    `http://127.0.0.1:9300/api/jobcards/customers/?region=${
+    `/jobcards/customers/?region=${
       regions.find((r) => r.name === card.region_name)?.id || ""
     }`
   );
@@ -302,7 +302,7 @@ const JobCardPage = () => {
 
   
       const response = await fetchWithAuth(
-        `http://127.0.0.1:9300/api/jobcards/jobcards/${jobCardBeingEdited.id}/`,
+        `/jobcards/jobcards/${jobCardBeingEdited.id}/`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
@@ -316,7 +316,7 @@ const JobCardPage = () => {
   
       // Refresh the job cards list
       const updated = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/jobcards/"
+        "/jobcards/jobcards/"
       );
       if (updated.ok) {
         setJobCards(await updated.json());

@@ -15,7 +15,7 @@ const SupportAgentPage = () => {
 
   const loadSupportAgent = async () => {
     const response = await fetchWithAuth(
-      "http://127.0.0.1:9300/api/jobcards/support-agents"
+      "/jobcards/support-agents"
     );
     if (response && response.ok) {
       const data: SupportAgent[] = await response.json();
@@ -32,7 +32,7 @@ const SupportAgentPage = () => {
   const handleModalSubmit = async (name: string) => {
     if (modalMode === "create") {
       const response = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/support-agents/",
+        "/jobcards/support-agents/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -47,7 +47,7 @@ const SupportAgentPage = () => {
       }
     } else if (modalMode === "edit" && selectedAgent) {
       const response = await fetchWithAuth(
-        `http://127.0.0.1:9300/api/jobcards/support-agents/${selectedAgent.id}/`,
+        `/jobcards/support-agents/${selectedAgent.id}/`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

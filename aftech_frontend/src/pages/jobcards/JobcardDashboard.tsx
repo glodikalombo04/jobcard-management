@@ -26,7 +26,7 @@ const JobcardDashboard = () => {
   useEffect(() => {
     const fetchRegions = async () => {
       const res = await fetchWithAuth(
-        "http://127.0.0.1:9300/api/jobcards/regions-with-jobcards/"
+        "/jobcards/regions-with-jobcards/"
       );
       const data = await res.json();
       setRegions(data);
@@ -38,7 +38,7 @@ const JobcardDashboard = () => {
   useEffect(() => {
     const fetchCustomers = async () => {
       const url = new URL(
-        "http://127.0.0.1:9300/api/jobcards/customers-with-jobcards/"
+        "/jobcards/customers-with-jobcards/"
       );
       if (regionId) url.searchParams.append("region_id", regionId);
 

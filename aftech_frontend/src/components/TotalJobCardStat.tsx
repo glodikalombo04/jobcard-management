@@ -26,7 +26,7 @@ export default function TotalJobCardStat({
 
       try {
         const res = await fetchWithAuth(
-          `http://127.0.0.1:9300/api/jobcards/total-jobcards/?${params.toString()}`
+          `/jobcards/total-jobcards/?${params.toString()}`
         );
         const data = await res.json();
         setCount(data.count);
