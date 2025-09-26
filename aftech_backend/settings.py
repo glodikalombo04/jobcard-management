@@ -26,7 +26,6 @@ SECRET_KEY = "django-insecure-%y68sv=+^8go90o6s7apt+j=%q)tpc=4ms-qfzovrns6m)k33e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "161.35.203.150"]
 
 
@@ -154,6 +153,6 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5190",  # React dev server
     "http://localhost:3000",
-
     "http://161.35.203.150", 
+    "http://161.35.203.150:9300",
 ]
