@@ -27,6 +27,7 @@ SECRET_KEY = "django-insecure-%y68sv=+^8go90o6s7apt+j=%q)tpc=4ms-qfzovrns6m)k33e
 DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "161.35.203.150"]
 
 
 # Application definition
@@ -127,6 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -143,7 +145,7 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("Bearer",),
-    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
     "ROTATE_REFRESH_TOKENS": True,
     "BLACKLIST_AFTER_ROTATION": True,
@@ -153,4 +155,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5190",  # React dev server
     "http://localhost:3000",
 
+    "http://161.35.203.150", 
 ]
