@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-%y68sv=+^8go90o6s7apt+j=%q)tpc=4ms-qfzovrns6m)k33e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "161.35.203.150"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "161.35.203.150" , "aftech.co.za", "www.aftech.co.za", "backend.aftech.co.za"]
 
 
 # Application definition
@@ -155,4 +155,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://161.35.203.150", 
     "http://161.35.203.150:9300",
+    "http://aftech.co.za",
+    "http://www.aftech.co.za",
+    "http://backend.aftech.co.za",
+    "https://aftech.co.za",
+    "https://www.aftech.co.za",
+    "https://backend.aftech.co.za",
+    
 ]
