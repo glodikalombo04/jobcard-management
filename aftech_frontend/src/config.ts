@@ -1,3 +1,9 @@
 // src/config.ts
-export const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://161.35.203.150:9300/api";
+let apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+
+// Hard fallback for production
+if (!apiBaseUrl || apiBaseUrl === "") {
+  apiBaseUrl = "https://backend.aftech.co.za/api";
+}
+
+export const API_BASE_URL = apiBaseUrl;
