@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "backend_core",
     "jobcard_management",
     "corsheaders",
+    "import_export",
 ]
 
 MIDDLEWARE = [
