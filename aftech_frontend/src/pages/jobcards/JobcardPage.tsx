@@ -66,6 +66,25 @@ const JobCardPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(10);
 
+  const [columnFilters, setColumnFilters] = useState({
+  unique_id: "",
+  region_name: "",
+  technician_name: "",
+  customer_name: "",
+  job_type_name: "",
+   accessories: "",
+  support_agent_name: "",
+  device_imei: "",
+  vehicle_reg: "",
+  tampering: "",
+  created_at: "",});
+
+  const handleColumnFilterChange = (col: string, value: string) => {
+  setColumnFilters((prev) => ({ ...prev, [col]: value }));
+  };
+
+
+
   const customerOptions = customers.map((cust) => ({
     value: cust.id,
     label: cust.name,
@@ -207,17 +226,29 @@ const JobCardPage = () => {
 
       const createdJobCard = await response.json();
       setNewlyCreatedId(createdJobCard.unique_id); // ✅ Set the success message
-
+      
       // Refresh the jobcards list
       const updated = await fetchWithAuth(
         "/jobcards/jobcards/"
       );
+      /*
       if (updated.ok) {
         setJobCards(await updated.json());
+      }
+      */
+
+      if (updated.ok) {
+      const data = await updated.json();
+      const sortedData = data.sort(
+       (a: JobCard, b: JobCard) =>
+      new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+       );
+      setJobCards(sortedData);
       }
 
       resetForm(); // ✅ Clear the form
       setShowModal(false);
+      
     } catch (error) {
       console.error("Error creating job card:", error);
       alert("Something went wrong while creating the job card.");
@@ -405,7 +436,7 @@ const JobCardPage = () => {
     currentPage * rowsPerPage
   );
 */
-
+   /*
   const filteredJobCards = jobCards.filter((card) => {
   const query = searchQuery.toLowerCase();
 
@@ -421,6 +452,48 @@ const JobCardPage = () => {
     new Date(card.created_at).toLocaleString().toLowerCase().includes(query)
   );
 });
+
+*/
+
+const filteredJobCards = jobCards
+  .filter((card) => {
+    const query = searchQuery.toLowerCase();
+    return (
+      card.unique_id.toLowerCase().includes(query) ||
+      card.region_name.toLowerCase().includes(query) ||
+      card.technician_name.toLowerCase().includes(query) ||
+      card.customer_name.toLowerCase().includes(query) ||
+      card.job_type_name.toLowerCase().includes(query) ||
+      card.support_agent_name.toLowerCase().includes(query) ||
+      card.device_imei.toLowerCase().includes(query) ||
+      card.vehicle_reg.toLowerCase().includes(query) ||
+      new Date(card.created_at).toLocaleString().toLowerCase().includes(query)
+    );
+  })
+    .filter((card) => {
+    const accFilter = columnFilters.accessories;
+    const tamperFilter = columnFilters.tampering;
+    return (
+      card.unique_id.toLowerCase().includes(columnFilters.unique_id.toLowerCase()) &&
+      card.region_name.toLowerCase().includes(columnFilters.region_name.toLowerCase()) &&
+      card.technician_name.toLowerCase().includes(columnFilters.technician_name.toLowerCase()) &&
+      card.customer_name.toLowerCase().includes(columnFilters.customer_name.toLowerCase()) &&
+      card.job_type_name.toLowerCase().includes(columnFilters.job_type_name.toLowerCase()) &&
+      card.support_agent_name.toLowerCase().includes(columnFilters.support_agent_name.toLowerCase()) &&
+      card.device_imei.toLowerCase().includes(columnFilters.device_imei.toLowerCase()) &&
+      card.vehicle_reg.toLowerCase().includes(columnFilters.vehicle_reg.toLowerCase()) &&
+      (accFilter === "" || card.accessories_name.includes(accFilter)) &&
+      (tamperFilter === "" || (card.tampering || "None") === tamperFilter)
+    );
+  });
+
+ // Generate unique dropdown values dynamically
+  const accessoryOptions = Array.from(
+  new Set(jobCards.flatMap((card) => card.accessories_name || []))
+  );
+  const tamperingOptions = Array.from(
+  new Set(jobCards.map((card) => card.tampering || "None"))
+  );
 
 const paginatedJobCards = filteredJobCards.slice(
   (currentPage - 1) * rowsPerPage,
@@ -497,9 +570,9 @@ const totalPages = Math.ceil(filteredJobCards.length / rowsPerPage);
             <div className="w-full overflow-x-hidden">
               <div className="overflow-x-auto overflow-y-auto max-h-[65vh]">
                 <table className="min-w-[1200px] table-auto text-sm border-collapse border border-gray-300 w-full">
-                  <thead>
+                  <thead className="sticky top-0 bg-gray-100 z-10">
                     <tr className=" bg-gray-100">
-                      <th className="border px-4 py-2">JobCard ID</th>
+                      <th className="border px-4 py-2" >JobCard ID</th>
                       <th className="border px-4 py-2">Region</th>
                       <th className="border px-4 py-2">Technician</th>
                       <th className="border px-4 py-2">Customer</th>
@@ -511,7 +584,48 @@ const totalPages = Math.ceil(filteredJobCards.length / rowsPerPage);
                       <th className="border px-4 py-2">Tampering</th>
                       <th className="border px-4 py-2">Created</th>
                       <th className="border px-4 py-2">Action</th> {/* New column */}
+                      
+                    </tr>
+                       <tr className="bg-gray-100 text-xs color-gray-700">
+                       <th><input value={columnFilters.unique_id} onChange={(e) => handleColumnFilterChange("unique_id", e.target.value)} className="w-full border p-1 rounded " placeholder="search"/></th>
+                       <th><input value={columnFilters.region_name} onChange={(e) => handleColumnFilterChange("region_name", e.target.value)} className="w-full border p-1 rounded" placeholder="search"/></th>
+                       <th><input value={columnFilters.technician_name} onChange={(e) => handleColumnFilterChange("technician_name", e.target.value)} className="w-full border p-1 rounded" placeholder="search"/></th>
+                       <th><input value={columnFilters.customer_name} onChange={(e) => handleColumnFilterChange("customer_name", e.target.value)} className="w-full border p-1 rounded"placeholder="search" /></th>
+                       <th><input value={columnFilters.job_type_name} onChange={(e) => handleColumnFilterChange("job_type_name", e.target.value)} className="w-full border p-1 rounded" placeholder="search"/></th>
+                       <th>
+                        <select
+                          value={columnFilters.accessories}
+                          onChange={(e) => handleColumnFilterChange("accessories", e.target.value)}
+                          className="w-full border p-1 rounded"
+  >
+                          <option value="">All</option>
+                            {accessoryOptions.map((acc) => (
+                            <option key={acc} value={acc}>
+                               {acc}
+                          </option>
+                           ))}
+                        </select>
+                      </th>
 
+                       <th><input value={columnFilters.support_agent_name} onChange={(e) => handleColumnFilterChange("support_agent_name", e.target.value)} className="w-full border p-1 rounded" placeholder="search"/></th>
+                       <th><input value={columnFilters.device_imei} onChange={(e) => handleColumnFilterChange("device_imei", e.target.value)} className="w-full border p-1 rounded"placeholder="search" /></th>
+                       <th><input value={columnFilters.vehicle_reg} onChange={(e) => handleColumnFilterChange("vehicle_reg", e.target.value)} className="w-full border p-1 rounded" placeholder="search"/></th>
+                          <th>
+                        <select
+                          value={columnFilters.tampering}
+                          onChange={(e) => handleColumnFilterChange("tampering", e.target.value)}
+                          className="w-full border p-1 rounded"
+                        >
+                        <option value="">All</option>
+                        {tamperingOptions.map((opt) => (
+                        <option key={opt} value={opt}>
+                        {opt}
+                        </option>
+                         ))}
+                        </select>
+                          </th>
+                       <th></th><th></th><th></th>
+                      
                     </tr>
                   </thead>
                   <tbody>
