@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchWithAuth } from "../../utils/api";
 import Select from "react-select";
-import { saveAs } from "file-saver"; // Add this import at the top
+import { saveAs } from "file-saver"; 
 
 
 type JobCard = {
@@ -17,7 +17,7 @@ type JobCard = {
   created_at: string;
   accessories: number[];        // IDs
   accessories_name: string[]; 
-  tampering?: string;   // ✅ Name
+  tampering?: string;   //Name
 
 };
 
@@ -225,7 +225,7 @@ const JobCardPage = () => {
       }
 
       const createdJobCard = await response.json();
-      setNewlyCreatedId(createdJobCard.unique_id); // ✅ Set the success message
+      setNewlyCreatedId(createdJobCard.unique_id); //Set the success message
       
       // Refresh the jobcards list
       const updated = await fetchWithAuth(
@@ -246,7 +246,7 @@ const JobCardPage = () => {
       setJobCards(sortedData);
       }
 
-      resetForm(); // ✅ Clear the form
+      resetForm(); //Clear the form
       setShowModal(false);
       
     } catch (error) {
@@ -317,7 +317,7 @@ const JobCardPage = () => {
         device_imei: deviceImei, // IMEI
         vehicle_reg: vehicleReg, // Vehicle registration
         accessories: selectedAccessories.map(Number), // Convert accessory IDs to numbers
-        tampering: selectedJobTypeName === "INSPECTION" ? tampering : null, // ✅ add this
+        tampering: selectedJobTypeName === "INSPECTION" ? tampering : null, //add this
 
       };
       if (
@@ -663,7 +663,7 @@ const totalPages = Math.ceil(filteredJobCards.length / rowsPerPage);
                         </td>
                         <td className="border px-4 py-2">
                            {card.job_type_name === "INSPECTION" ? card.tampering || "N/A" : "N/A"}
-                        </td> {/* ✅ show tampering only for INSPECTION */}
+                        </td> {/*  show tampering only for INSPECTION */}
                         <td className="border px-4 py-2 whitespace-nowrap">
                           {new Date(card.created_at).toLocaleString()}
                         </td>
@@ -1223,7 +1223,7 @@ const totalPages = Math.ceil(filteredJobCards.length / rowsPerPage);
               <button
                 className="text-white bg-red-500 px-4 py-2 rounded hover:bg-red-600"
                 onClick={() => {
-                resetForm();       // ✅ clear form state
+                resetForm();       // clear form state
                 setShowEditModal(false);
              }}
               >
