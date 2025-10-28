@@ -14,6 +14,6 @@ class UserProfileSerializer(serializers.ModelSerializer):
             "role",
             "role_display",
             "region",
-            # "warehouse",
+            "warehouse",
             # "warehouse_name",
         ]

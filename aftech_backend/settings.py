@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "jobcard_management",
     "corsheaders",
     "import_export",
+    'inventory_management',
 ]
 
 MIDDLEWARE = [
@@ -88,7 +89,7 @@ DATABASES = {
         "USER": "postgres",       # Your PostgreSQL username
         "PASSWORD": "capetown2025", # Your PostgreSQL password
         "HOST": "localhost",         # Or 'localhost'
-        "PORT": "5433",              # PostgreSQL default port
+        "PORT": "5432",              # PostgreSQL default port
     }
 }
 

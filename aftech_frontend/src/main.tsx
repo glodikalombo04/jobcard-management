@@ -13,6 +13,8 @@ import JobcardPage from "./pages/jobcards/JobcardPage";
 import SupportAgentPage from "./pages/jobcards/SupportAgentPage";
 import JobTypePage from "./pages/jobcards/JobTypePage";
 import JobcardDashboard from "./pages/jobcards/JobcardDashboard";
+import StockTakePage from "./inventory/pages/StockTakePage";
+import StockTakePage2 from "./inventory/pages/StockTakePage2";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -31,6 +33,8 @@ createRoot(document.getElementById("root")!).render(
               element={<SupportAgentPage />}
             />
             <Route path="jobcards/job-types" element={<JobTypePage />} />
+            <Route path="inventory" element={<StockTakePage />} />
+            <Route path="inventory/stocktake" element={<StockTakePage2 />} />
           </Route>
         </Route>
       </Routes>

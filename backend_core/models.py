@@ -40,7 +40,7 @@ class UserProfile(models.Model):
     role = models.CharField(
         max_length=50,
         choices=[
-            ("super_admin", "Super Admin"),  # Jordan only
+            ("super_admin", "Super Admin"),  # Jordan/Glodi only
             ("admin", "Admin"),  # Full access
             ("regional_manager", "Regional Manager"),  # Region-limited view
         ],
@@ -49,12 +49,12 @@ class UserProfile(models.Model):
         "Region", on_delete=models.CASCADE, null=True, blank=True
     )
 
-    # warehouse = models.ForeignKey(
-    #   "inventory_management.StockLocation",
-    #  on_delete=models.CASCADE,
-    # null=True,
-    # blank=True,
-    # )
+    warehouse = models.ForeignKey(
+       "inventory_management.StockLocation",
+      on_delete=models.CASCADE,
+     null=True,
+     blank=True,
+     )
 
     def __str__(self):
         return f"{self.user.username} - {self.role}"

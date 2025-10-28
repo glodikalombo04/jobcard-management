@@ -1,7 +1,7 @@
 from django.contrib import admin
 from import_export import resources, fields
 from import_export.admin import ImportExportModelAdmin
-from .models import Customer, Region
+from .models import Customer, Region, UserProfile
 from import_export.results import RowResult
 
 
@@ -50,4 +50,9 @@ class CustomerAdmin(ImportExportModelAdmin):
 class RegionAdmin(admin.ModelAdmin):
     list_display = ["id", "name"]
     search_fields = ["name"]
+
+@admin.register(UserProfile)
+class UserProfileAdmin(admin.ModelAdmin):
+    list_display = ("user", "role", "region", "warehouse")
+    search_fields = ("user__username", "role", "region__name")
 

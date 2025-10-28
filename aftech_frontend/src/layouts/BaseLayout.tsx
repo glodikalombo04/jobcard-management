@@ -40,7 +40,7 @@ const topNavConfig: Record<string, NavItem[]> = {
 
   inventory: [
     { to: "/inventory/dashboard", label: "Dashboard" }, // This was a test of the requests endpoint to understand, built too quickly with AI
-    { to: "/inventory/warehouses", label: "Warehouses" },
+    { to: "/inventory/stocktake", label: "Stock Take2" },
     { to: "/inventory/item-types", label: "Item Types" },
     { to: "/inventory/requests", label: "Movement Requests" },
   ],
