@@ -78,12 +78,12 @@ export default function JobsPerJobTypePie({
                 cx="50%"
                 cy="50%"
                 innerRadius={70}
-                outerRadius={110}
-                paddingAngle={4}
+                outerRadius={130}
+                paddingAngle={10}
                 label={renderLabel}
                 labelLine={false}
                 isAnimationActive={true}
-                animationDuration={800}
+                animationDuration={900}
               >
                 {data.map((_, index) => (
                   <Cell
