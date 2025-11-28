@@ -1,0 +1,5 @@
+/* @import "tailwindcss"; */       /* restores sensible defaults for html/body/inputs */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,3530 @@
+[
+{
+  "model": "backend_core.customer",
+  "pk": 3,
+  "fields": {
+    "name": "ADDAX",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 4,
+  "fields": {
+    "name": "AFENET",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 5,
+  "fields": {
+    "name": "AFRICA CONSERVATION INITIATIVE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 6,
+  "fields": {
+    "name": "AFRICELL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 7,
+  "fields": {
+    "name": "AFRIGAS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 8,
+  "fields": {
+    "name": "AFRO INTERNATIONAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 9,
+  "fields": {
+    "name": "AH&M Ltd",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 10,
+  "fields": {
+    "name": "ALOYED CAPITAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 11,
+  "fields": {
+    "name": "ANAGKAZO VENTURES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 12,
+  "fields": {
+    "name": "ARAMEX",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 13,
+  "fields": {
+    "name": "Aurora Foundation",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 14,
+  "fields": {
+    "name": "AYK TRADING",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 15,
+  "fields": {
+    "name": "BALE LOGISTICS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 16,
+  "fields": {
+    "name": "BANSU LOGISTICS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 17,
+  "fields": {
+    "name": "BCM",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 18,
+  "fields": {
+    "name": "BESPOEK CONSTRUCTION COMPANY",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 19,
+  "fields": {
+    "name": "BRITISH HIGH COMMISSION",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 20,
+  "fields": {
+    "name": "CAFOD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 21,
+  "fields": {
+    "name": "CALVET CONSTRUCTION & PROCUREMENT Ltd",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 22,
+  "fields": {
+    "name": "CAMUSAT",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 23,
+  "fields": {
+    "name": "Christian Brothers",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 24,
+  "fields": {
+    "name": "CONCERNSL2",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 25,
+  "fields": {
+    "name": "Crown Agents (SL) Limited",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 26,
+  "fields": {
+    "name": "CTC",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 27,
+  "fields": {
+    "name": "CUAMM",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 28,
+  "fields": {
+    "name": "D&S ASSOCIATES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 29,
+  "fields": {
+    "name": "DIG INTERNATIONAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 30,
+  "fields": {
+    "name": "DOCTORS WITH AFRICA CUAMM",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 31,
+  "fields": {
+    "name": "DUALTECH",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 32,
+  "fields": {
+    "name": "DUMA",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 33,
+  "fields": {
+    "name": "EHEALTH",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 34,
+  "fields": {
+    "name": "EIFFAGE GENIE CIVIL SLE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 35,
+  "fields": {
+    "name": "EKENE HENRY ARIZE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 36,
+  "fields": {
+    "name": "EMERGENCYSL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 37,
+  "fields": {
+    "name": "EXFORGE UK LIMITED",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 38,
+  "fields": {
+    "name": "FARHAT HIJAZI",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 39,
+  "fields": {
+    "name": "FG ENTERPRISES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 40,
+  "fields": {
+    "name": "FG GOLD LIMITED",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 41,
+  "fields": {
+    "name": "FISCAL AGENT SIERRA LEONE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 42,
+  "fields": {
+    "name": "Flash Vehicle Rentals",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 43,
+  "fields": {
+    "name": "FREETOWN TERMINAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 44,
+  "fields": {
+    "name": "FRONTIER SECURITY LOGISTICS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 45,
+  "fields": {
+    "name": "FROTCOM WEST AFRICA",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 46,
+  "fields": {
+    "name": "G4S",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 47,
+  "fields": {
+    "name": "GEMFAIR (SL)Ltd",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 48,
+  "fields": {
+    "name": "Global Consulting Services",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 49,
+  "fields": {
+    "name": "GMI HAULAGE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 50,
+  "fields": {
+    "name": "GOAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 51,
+  "fields": {
+    "name": "GOLDTREE HOLDINGS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 52,
+  "fields": {
+    "name": "H & S CONSULTANTS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 53,
+  "fields": {
+    "name": "H4 PLAST COMPANY LTD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 54,
+  "fields": {
+    "name": "HANDICAP",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 55,
+  "fields": {
+    "name": "HARRY'S ELECTRONICS CENTRE (SL) LTD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 56,
+  "fields": {
+    "name": "HAWK",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 57,
+  "fields": {
+    "name": "IBIS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 58,
+  "fields": {
+    "name": "ICAP",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 59,
+  "fields": {
+    "name": "ICELAND EMBASSY",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 60,
+  "fields": {
+    "name": "INTEGRATED MINING AND LOGISTICS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 61,
+  "fields": {
+    "name": "INTERNATIONAL LABOUR ORGANIZATION",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 62,
+  "fields": {
+    "name": "IPC TRAVEL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 63,
+  "fields": {
+    "name": "J LOGISTICS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 64,
+  "fields": {
+    "name": "JAMES INTERNATIONAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 65,
+  "fields": {
+    "name": "JMAN CONSULTANCY SL LTD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 66,
+  "fields": {
+    "name": "Josephine Tucker",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 67,
+  "fields": {
+    "name": "KALPATARU POWER TRANSMISSION LIMITED",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 68,
+  "fields": {
+    "name": "KGI EARTHWORKS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 69,
+  "fields": {
+    "name": "KOIDU LIMITED",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 70,
+  "fields": {
+    "name": "LEONOIL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 71,
+  "fields": {
+    "name": "MANO MINING",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 72,
+  "fields": {
+    "name": "MANTRAC",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 73,
+  "fields": {
+    "name": "Marampa Iron Ore (SL) Ltd",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 74,
+  "fields": {
+    "name": "MARAMPA MINES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 75,
+  "fields": {
+    "name": "METROCABLE23",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 76,
+  "fields": {
+    "name": "MEYA MINING",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 77,
+  "fields": {
+    "name": "MMG LOGISTICS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 78,
+  "fields": {
+    "name": "MOHS SL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 79,
+  "fields": {
+    "name": "MOTION LOGISTICS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 80,
+  "fields": {
+    "name": "MOTT MACDONALD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 81,
+  "fields": {
+    "name": "MSF BELGIUM",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 82,
+  "fields": {
+    "name": "MSF SIERRA LEONE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 83,
+  "fields": {
+    "name": "NET-TRANS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 84,
+  "fields": {
+    "name": "NEWFIELD RESOURCES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 85,
+  "fields": {
+    "name": "NMSA",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 86,
+  "fields": {
+    "name": "NP",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 87,
+  "fields": {
+    "name": "NSBT",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 88,
+  "fields": {
+    "name": "OCTEA MINING",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 89,
+  "fields": {
+    "name": "OFFGRID",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 90,
+  "fields": {
+    "name": "Onlime",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 91,
+  "fields": {
+    "name": "ORANGE SIERRA LEONE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 92,
+  "fields": {
+    "name": "PLANTING NATURALS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 93,
+  "fields": {
+    "name": "RAINBOW PAINTS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 94,
+  "fields": {
+    "name": "RAINFOREST BUILDER (SL) LTD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 95,
+  "fields": {
+    "name": "RAJU'S ELECTRICAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 96,
+  "fields": {
+    "name": "RAZOR EDGE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 97,
+  "fields": {
+    "name": "REGENT TRANSPORT",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 98,
+  "fields": {
+    "name": "RW SERVICES (SL) LTD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 99,
+  "fields": {
+    "name": "S.V ELECTRICAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 100,
+  "fields": {
+    "name": "SAIDU KANU",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 101,
+  "fields": {
+    "name": "SAM JONES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 102,
+  "fields": {
+    "name": "SAVE THE CHILDREN SL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 103,
+  "fields": {
+    "name": "SHANKERDAS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 104,
+  "fields": {
+    "name": "SHONA ENTERPRISES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 105,
+  "fields": {
+    "name": "Sierra Rutile",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 106,
+  "fields": {
+    "name": "SIERRA TROPICAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 107,
+  "fields": {
+    "name": "SL MINING",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 108,
+  "fields": {
+    "name": "SNAP",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 109,
+  "fields": {
+    "name": "SOCFIN",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 110,
+  "fields": {
+    "name": "SPARROW TRADING (SL) Ltd.",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 111,
+  "fields": {
+    "name": "Speedway General Supplies",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 112,
+  "fields": {
+    "name": "SSGI",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 113,
+  "fields": {
+    "name": "SUNBIRD BIOENERGY",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 114,
+  "fields": {
+    "name": "SYNTECH",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 115,
+  "fields": {
+    "name": "T CHOITHRAMS & SONS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 116,
+  "fields": {
+    "name": "T&D POWER SOLUTIONS LIMITED",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 117,
+  "fields": {
+    "name": "TECHNO WORLD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 118,
+  "fields": {
+    "name": "TONGDA LOGISTICS COMPANY LTD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 119,
+  "fields": {
+    "name": "TRANSNATIONAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 120,
+  "fields": {
+    "name": "TSLGI",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 121,
+  "fields": {
+    "name": "TUGE HEIGHT SL.",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 122,
+  "fields": {
+    "name": "TURKISH ENTERPRISES",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 123,
+  "fields": {
+    "name": "UNFPA SL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 124,
+  "fields": {
+    "name": "UNIDO SL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 125,
+  "fields": {
+    "name": "UNIVERSAL IMPEX LTD",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 126,
+  "fields": {
+    "name": "UNOPS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 127,
+  "fields": {
+    "name": "USESL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 128,
+  "fields": {
+    "name": "VIMETCO",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 129,
+  "fields": {
+    "name": "VISIT SIERRA LEONE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 130,
+  "fields": {
+    "name": "WAYOE ENGINEERING & CONSTRUCTION LIMITED",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 131,
+  "fields": {
+    "name": "WORLD BANK SIERRA LEONE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 132,
+  "fields": {
+    "name": "World Health Organisation",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 133,
+  "fields": {
+    "name": "WORLD HOPE INTERNATIONAL",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 134,
+  "fields": {
+    "name": "YAZBECK & SONS LIMITED",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 135,
+  "fields": {
+    "name": "YERROH ENTERPRISE",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 136,
+  "fields": {
+    "name": "ZOODLABS",
+    "region": 3
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 137,
+  "fields": {
+    "name": "AD TRADE SERVICES",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 138,
+  "fields": {
+    "name": "ADRITZ HYDRO",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 139,
+  "fields": {
+    "name": "AECI MINING EXPLOSIVES",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 140,
+  "fields": {
+    "name": "AFRICAN BUILDERS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 141,
+  "fields": {
+    "name": "AKA LOGISTICS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 142,
+  "fields": {
+    "name": "ALIOU NIASS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 143,
+  "fields": {
+    "name": "AREZKI GAMBIA",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 144,
+  "fields": {
+    "name": "AREZKI GROUP",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 145,
+  "fields": {
+    "name": "AUCHAN",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 146,
+  "fields": {
+    "name": "AUTOLAQUE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 147,
+  "fields": {
+    "name": "AUTORENT",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 148,
+  "fields": {
+    "name": "BAOBAB MINING CHEMICALS CORPORATION",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 149,
+  "fields": {
+    "name": "BDTP",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 150,
+  "fields": {
+    "name": "BERNABE AFRIQUE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 151,
+  "fields": {
+    "name": "Car Rapide Prestige",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 152,
+  "fields": {
+    "name": "CARENT",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 153,
+  "fields": {
+    "name": "CBAO",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 154,
+  "fields": {
+    "name": "CEFI",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 155,
+  "fields": {
+    "name": "CMA CGM",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 156,
+  "fields": {
+    "name": "CoPADEX",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 157,
+  "fields": {
+    "name": "CSE GRANULATS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 158,
+  "fields": {
+    "name": "CSTM",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 159,
+  "fields": {
+    "name": "DAKAR VTC",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 160,
+  "fields": {
+    "name": "DERKA SARL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 161,
+  "fields": {
+    "name": "DUOPHARM",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 162,
+  "fields": {
+    "name": "ECOBANK",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 163,
+  "fields": {
+    "name": "ECOTRA",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 164,
+  "fields": {
+    "name": "EIFFAGE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 165,
+  "fields": {
+    "name": "EUROPCAR",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 166,
+  "fields": {
+    "name": "E-ZONE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 167,
+  "fields": {
+    "name": "FBN",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 168,
+  "fields": {
+    "name": "FLYING WINGS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 169,
+  "fields": {
+    "name": "GBLS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 170,
+  "fields": {
+    "name": "GOINIT SARL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 171,
+  "fields": {
+    "name": "GRANDS MOULINS DE DAKAR",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 172,
+  "fields": {
+    "name": "GRIMALDI",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 173,
+  "fields": {
+    "name": "GROUPE CSE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 174,
+  "fields": {
+    "name": "Groupe Fauzie Layousse",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 175,
+  "fields": {
+    "name": "GROUPE SOGAFRIC",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 176,
+  "fields": {
+    "name": "GTM",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 177,
+  "fields": {
+    "name": "HERTZ SENEGAL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 178,
+  "fields": {
+    "name": "HUMAN APPEAL INTERNATIONAL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 179,
+  "fields": {
+    "name": "ICSA",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 180,
+  "fields": {
+    "name": "INTOUCH",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 181,
+  "fields": {
+    "name": "ISTAMCO",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 182,
+  "fields": {
+    "name": "IZICAR",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 183,
+  "fields": {
+    "name": "LABOSOL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 184,
+  "fields": {
+    "name": "LUGUM DISTRIBUTION",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 185,
+  "fields": {
+    "name": "MADAR",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 186,
+  "fields": {
+    "name": "MATI╚RE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 187,
+  "fields": {
+    "name": "MSNP",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 188,
+  "fields": {
+    "name": "NFS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 189,
+  "fields": {
+    "name": "ORABANK",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 190,
+  "fields": {
+    "name": "ORANGE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 191,
+  "fields": {
+    "name": "PEG SENEGAL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 192,
+  "fields": {
+    "name": "PETOWAL MINING COMPANY",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 193,
+  "fields": {
+    "name": "REMD24",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 194,
+  "fields": {
+    "name": "ROYAL TOURS SN",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 195,
+  "fields": {
+    "name": "SAGAM",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 196,
+  "fields": {
+    "name": "SATGURU TRAVELS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 197,
+  "fields": {
+    "name": "SATGURU TRAVELS RENTALS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 198,
+  "fields": {
+    "name": "SCN",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 199,
+  "fields": {
+    "name": "SDE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 200,
+  "fields": {
+    "name": "SEN DISTRIBUTION",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 201,
+  "fields": {
+    "name": "SEN JUS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 202,
+  "fields": {
+    "name": "SENECARTOURS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 203,
+  "fields": {
+    "name": "SENEGAL BOIS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 204,
+  "fields": {
+    "name": "SENEGAL LOGISTICS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 205,
+  "fields": {
+    "name": "SEPHOS SENEGAL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 206,
+  "fields": {
+    "name": "SILEX",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 207,
+  "fields": {
+    "name": "SIRMEL-SDMO (demo)",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 208,
+  "fields": {
+    "name": "SIXT SENEGAL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 209,
+  "fields": {
+    "name": "SOFIEX",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 210,
+  "fields": {
+    "name": "SOGETRANS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 211,
+  "fields": {
+    "name": "SORAM",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 212,
+  "fields": {
+    "name": "SOTRACOM",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 213,
+  "fields": {
+    "name": "SPHINX SECURITE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 214,
+  "fields": {
+    "name": "TERANGA GAS & OIL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 215,
+  "fields": {
+    "name": "TEX COURRIER",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 216,
+  "fields": {
+    "name": "TPE",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 217,
+  "fields": {
+    "name": "UBA",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 218,
+  "fields": {
+    "name": "UNIPAX",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 219,
+  "fields": {
+    "name": "UNIVERSELLE INDUSTRIES SENEGAL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 220,
+  "fields": {
+    "name": "VOLTA CARS",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 221,
+  "fields": {
+    "name": "YANGO SENEGAL",
+    "region": 1
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 222,
+  "fields": {
+    "name": "AEC SARLU",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 223,
+  "fields": {
+    "name": "AECOM",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 224,
+  "fields": {
+    "name": "AFI GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 225,
+  "fields": {
+    "name": "AfricaTransport",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 226,
+  "fields": {
+    "name": "AFRIMARINE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 227,
+  "fields": {
+    "name": "AGTS",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 228,
+  "fields": {
+    "name": "ALUFER MINING",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 229,
+  "fields": {
+    "name": "ARIABA SAS",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 230,
+  "fields": {
+    "name": "AROUNA LAFIA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 231,
+  "fields": {
+    "name": "ATS GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 232,
+  "fields": {
+    "name": "B TRAVEL SERVICES SARLU",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 233,
+  "fields": {
+    "name": "B&S MARITIME SERVICES",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 234,
+  "fields": {
+    "name": "BDG BANK",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 235,
+  "fields": {
+    "name": "CINO GUINEE SERVICES",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 236,
+  "fields": {
+    "name": "CONTINENTAL EXPORT",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 237,
+  "fields": {
+    "name": "DELTALOG",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 238,
+  "fields": {
+    "name": "DGI",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 239,
+  "fields": {
+    "name": "DIMITRI GIREME",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 240,
+  "fields": {
+    "name": "DYNAMIC MINING",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 241,
+  "fields": {
+    "name": "EIFFAGE GUINEA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 242,
+  "fields": {
+    "name": "╔LITE GUIN╔E BUSINESS SERVICE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 243,
+  "fields": {
+    "name": "ESMLT",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 244,
+  "fields": {
+    "name": "FETRALOG",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 245,
+  "fields": {
+    "name": "GMS GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 246,
+  "fields": {
+    "name": "GMS ORANGE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 247,
+  "fields": {
+    "name": "GPC",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 248,
+  "fields": {
+    "name": "GPS SECURITY",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 249,
+  "fields": {
+    "name": "GSG GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 250,
+  "fields": {
+    "name": "GT-WEST AFRICA MINING",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 251,
+  "fields": {
+    "name": "GUILAB",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 252,
+  "fields": {
+    "name": "Ibrahima Diallo",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 253,
+  "fields": {
+    "name": "IMC",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 254,
+  "fields": {
+    "name": "INEO ES CONAKRY",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 255,
+  "fields": {
+    "name": "INTERCON GUINEE SARL",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 256,
+  "fields": {
+    "name": "KOUROUMA LAMINE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 257,
+  "fields": {
+    "name": "LA SOCIETE DE GESTION ET DE CONSTRUCTION GUINEEN",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 258,
+  "fields": {
+    "name": "LABOREX-GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 259,
+  "fields": {
+    "name": "LTE SHIPPING",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 260,
+  "fields": {
+    "name": "MAKI'S",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 261,
+  "fields": {
+    "name": "MENEMA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 262,
+  "fields": {
+    "name": "METAL IMPORT",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 263,
+  "fields": {
+    "name": "MSFGuinee",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 264,
+  "fields": {
+    "name": "MTN",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 265,
+  "fields": {
+    "name": "OBT LOGISTICS",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 266,
+  "fields": {
+    "name": "OBT SHIPPING",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 267,
+  "fields": {
+    "name": "OMS",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 268,
+  "fields": {
+    "name": "PLAN INTERNATIONAL GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 269,
+  "fields": {
+    "name": "Renault",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 270,
+  "fields": {
+    "name": "REXCOM",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 271,
+  "fields": {
+    "name": "SACKO",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 272,
+  "fields": {
+    "name": "SAPEF",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 273,
+  "fields": {
+    "name": "SAWABA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 274,
+  "fields": {
+    "name": "SOGEKA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 275,
+  "fields": {
+    "name": "SOGUICIP",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 276,
+  "fields": {
+    "name": "SOLIDIAGUI",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 277,
+  "fields": {
+    "name": "SONOCO LMA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 278,
+  "fields": {
+    "name": "SONOCO SA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 279,
+  "fields": {
+    "name": "SOPROMI SARLU",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 280,
+  "fields": {
+    "name": "TERRE DES HOMMES",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 281,
+  "fields": {
+    "name": "THE TRANSPORT COMPANY SARLU",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 282,
+  "fields": {
+    "name": "TORO GOLD GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 283,
+  "fields": {
+    "name": "TRANSCO SA",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 284,
+  "fields": {
+    "name": "TTM GUINEE",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 285,
+  "fields": {
+    "name": "UBIPHARM",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 286,
+  "fields": {
+    "name": "USEGN",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 287,
+  "fields": {
+    "name": "WEST AFRICA CONTAINER AGENCY",
+    "region": 2
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 288,
+  "fields": {
+    "name": "A & G SHIPPING",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 289,
+  "fields": {
+    "name": "ACDI/VOCAL (FIFES)",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 290,
+  "fields": {
+    "name": "ACTION AGAINST HUNGER",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 291,
+  "fields": {
+    "name": "ADAM SMITH INTERNATIONAL",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 292,
+  "fields": {
+    "name": "AFENET LR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 293,
+  "fields": {
+    "name": "AFRICA MOTORS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 294,
+  "fields": {
+    "name": "AGI LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 295,
+  "fields": {
+    "name": "AHT GROUP LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 296,
+  "fields": {
+    "name": "ALMAWOOD",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 297,
+  "fields": {
+    "name": "AlphaTND Limited",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 298,
+  "fields": {
+    "name": "APM TERMINALS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 299,
+  "fields": {
+    "name": "ARCELOR MITTAL AFCONS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 300,
+  "fields": {
+    "name": "ARCELOR MITTAL OPERATIONS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 301,
+  "fields": {
+    "name": "ARCELOR MITTAL PROJECTS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 302,
+  "fields": {
+    "name": "ARKAY HARDWARE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 303,
+  "fields": {
+    "name": "ATLANTIC COCOA PROCESSING & EXPORT COMPANY",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 304,
+  "fields": {
+    "name": "ATLANTIC MARITIME AGENCY INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 305,
+  "fields": {
+    "name": "BARAKI Z. BIRRU",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 306,
+  "fields": {
+    "name": "BEA MOUNTAIN",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 307,
+  "fields": {
+    "name": "BLECO GROUP",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 308,
+  "fields": {
+    "name": "Central Bank Of Liberia (demo)",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 309,
+  "fields": {
+    "name": "CHANNEL LOGISTICS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 310,
+  "fields": {
+    "name": "CHEMONICS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 311,
+  "fields": {
+    "name": "CICA MOTORS LIBERIA INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 312,
+  "fields": {
+    "name": "CNFA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 313,
+  "fields": {
+    "name": "CONCERN WORLDWIDE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 314,
+  "fields": {
+    "name": "CONSERVATION INTERNATIONAL",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 315,
+  "fields": {
+    "name": "DASH LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 316,
+  "fields": {
+    "name": "DEBOLD ENTERPRISES",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 317,
+  "fields": {
+    "name": "DEMOCRACY INTERNATIONAL",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 318,
+  "fields": {
+    "name": "DKT INTERNATIONAL",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 319,
+  "fields": {
+    "name": "EDC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 320,
+  "fields": {
+    "name": "ENJOY LIBERIA TRAVEL & TOURS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 321,
+  "fields": {
+    "name": "Evidence Action",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 322,
+  "fields": {
+    "name": "FATOUMATA & SONS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 323,
+  "fields": {
+    "name": "FIFES USAID",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 324,
+  "fields": {
+    "name": "FIRESTONE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 325,
+  "fields": {
+    "name": "FLASH LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 326,
+  "fields": {
+    "name": "FRANKLIN F. TULAY",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 327,
+  "fields": {
+    "name": "GENERAL PETROLEUM CORPORATION",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 328,
+  "fields": {
+    "name": "GIZ/AMBERO",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 329,
+  "fields": {
+    "name": "GLOBAL COMMUNITIES",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 330,
+  "fields": {
+    "name": "GOLDEN VEROLEUM",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 331,
+  "fields": {
+    "name": "HENDERSON ASSET PROTECTION INC.",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 332,
+  "fields": {
+    "name": "HYSAA LIBERIA INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 333,
+  "fields": {
+    "name": "IFC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 334,
+  "fields": {
+    "name": "INTER-CON SECURITY",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 335,
+  "fields": {
+    "name": "INTERNATIONAL RESCUE COMMITTEE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 336,
+  "fields": {
+    "name": "J MART INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 337,
+  "fields": {
+    "name": "JAMES E.G.HELB",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 338,
+  "fields": {
+    "name": "JHPIEGO",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 339,
+  "fields": {
+    "name": "JOHN HOPKINS CENTER FOR COMMUNICATION PROGRAM",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 340,
+  "fields": {
+    "name": "JPALM",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 341,
+  "fields": {
+    "name": "JSI LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 342,
+  "fields": {
+    "name": "KANU EQUIPMENT",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 343,
+  "fields": {
+    "name": "KHALIL BROTHERS INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 344,
+  "fields": {
+    "name": "LAST MILE HEALTH",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 345,
+  "fields": {
+    "name": "LEC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 346,
+  "fields": {
+    "name": "LMHRA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 347,
+  "fields": {
+    "name": "LUCRETIA KORTO TURNQUIST",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 348,
+  "fields": {
+    "name": "MAERSK SHIPPING",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 349,
+  "fields": {
+    "name": "MANTRAC LIBERIA LTD",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 350,
+  "fields": {
+    "name": "Maryland Transport",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 351,
+  "fields": {
+    "name": "MARY'S MEALS LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 352,
+  "fields": {
+    "name": "MERCY CORPS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 353,
+  "fields": {
+    "name": "METRO RELIABLE RIDE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 354,
+  "fields": {
+    "name": "MNG",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 355,
+  "fields": {
+    "name": "MOH",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 356,
+  "fields": {
+    "name": "MOIBAH SHERIF",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 357,
+  "fields": {
+    "name": "MR NTEIMAN JONATHAN",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 358,
+  "fields": {
+    "name": "MSF FRANCE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 359,
+  "fields": {
+    "name": "MSH",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 360,
+  "fields": {
+    "name": "MTN LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 361,
+  "fields": {
+    "name": "MTN LONESTAR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 362,
+  "fields": {
+    "name": "NATHANIEL BEH JR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 363,
+  "fields": {
+    "name": "NAZ NATURALS INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 364,
+  "fields": {
+    "name": "NIMBA ECOLODGE & RESERVE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 365,
+  "fields": {
+    "name": "NOVA LOGISTICS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 366,
+  "fields": {
+    "name": "OBT LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 367,
+  "fields": {
+    "name": "ODELL PRINCESS WAHKOR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 368,
+  "fields": {
+    "name": "ORAGON(RACI)",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 369,
+  "fields": {
+    "name": "Orange",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 370,
+  "fields": {
+    "name": "PARTNERS IN HEALTH LR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 371,
+  "fields": {
+    "name": "PLAN INTERNATIONAL LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 372,
+  "fields": {
+    "name": "Professional Maintenance Contractors inc",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 373,
+  "fields": {
+    "name": "PSI",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 374,
+  "fields": {
+    "name": "RYAD BASHIR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 375,
+  "fields": {
+    "name": "SAMARITAN'S PURSE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 376,
+  "fields": {
+    "name": "SEAPORT EXPRESS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 377,
+  "fields": {
+    "name": "SECURITY EXPERT GUARD AGENCY OF LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 378,
+  "fields": {
+    "name": "SETHI BROTHERS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 379,
+  "fields": {
+    "name": "SIME DARBY",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 380,
+  "fields": {
+    "name": "SINOE LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 381,
+  "fields": {
+    "name": "SKY WATER",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 382,
+  "fields": {
+    "name": "SKYE PETROLEUM",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 383,
+  "fields": {
+    "name": "SMIT TERMINALS EUROPE BV",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 384,
+  "fields": {
+    "name": "SOCIAL IMPACT",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 385,
+  "fields": {
+    "name": "SSF ENTREPRENEUR INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 386,
+  "fields": {
+    "name": "SUNNY ASSURANCE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 387,
+  "fields": {
+    "name": "SUNNY BROTHERS INC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 388,
+  "fields": {
+    "name": "TETRA TECH",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 389,
+  "fields": {
+    "name": "THE CARTER CENTER",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 390,
+  "fields": {
+    "name": "THE KAIZEN COMPANY",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 391,
+  "fields": {
+    "name": "TIPME",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 392,
+  "fields": {
+    "name": "ULC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 393,
+  "fields": {
+    "name": "UNDP",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 394,
+  "fields": {
+    "name": "UNFAO",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 395,
+  "fields": {
+    "name": "UNFPA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 396,
+  "fields": {
+    "name": "UNICEF LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 397,
+  "fields": {
+    "name": "UNIDO",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 398,
+  "fields": {
+    "name": "UNIVERSAL OUTREACH FOUNDATION",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 399,
+  "fields": {
+    "name": "UNOPS LR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 400,
+  "fields": {
+    "name": "VONJO LOGISTICS",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 401,
+  "fields": {
+    "name": "WBHOSC",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 402,
+  "fields": {
+    "name": "WELTHUNGERHILFE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 403,
+  "fields": {
+    "name": "WINROCK INTERNATIONAL",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 404,
+  "fields": {
+    "name": "WORLD BANK LIBERIA",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 405,
+  "fields": {
+    "name": "WORLD FOOD PROGRAMME",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 406,
+  "fields": {
+    "name": "WORLD HOPE INTERNATIONAL LR",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 407,
+  "fields": {
+    "name": "WRIGHT SECURITY SERVICES",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 408,
+  "fields": {
+    "name": "ZOE",
+    "region": 4
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 409,
+  "fields": {
+    "name": "M. N'DA SERGE/ ACC",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 410,
+  "fields": {
+    "name": "AFEMA GOLD",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 411,
+  "fields": {
+    "name": "AFRICA TRANSIT",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 412,
+  "fields": {
+    "name": "AGRIDIEM",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 413,
+  "fields": {
+    "name": "BENJAMIN OKA",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 414,
+  "fields": {
+    "name": "BROLL CI",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 415,
+  "fields": {
+    "name": "CHC",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 416,
+  "fields": {
+    "name": "DIEGO INTELLIGENT LOGISTICS",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 417,
+  "fields": {
+    "name": "EDITH ROLAND",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 418,
+  "fields": {
+    "name": "EDS",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 419,
+  "fields": {
+    "name": "EHOULAN",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 420,
+  "fields": {
+    "name": "ELITE MEDICALE SERVICES",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 421,
+  "fields": {
+    "name": "FLASH IVORY COAST",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 422,
+  "fields": {
+    "name": "GIZ",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 423,
+  "fields": {
+    "name": "GLTC",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 424,
+  "fields": {
+    "name": "GMA",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 425,
+  "fields": {
+    "name": "IVOIRE INDUSTRIE AFRIQUE",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 426,
+  "fields": {
+    "name": "JEAN WAWA X.H",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 427,
+  "fields": {
+    "name": "KASSI AFFOUA NINA JOCELYNE",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 428,
+  "fields": {
+    "name": "KMAK",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 429,
+  "fields": {
+    "name": "KONSOU",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 430,
+  "fields": {
+    "name": "LABORATOIRE BIO-INNOV",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 431,
+  "fields": {
+    "name": "M. BROU",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 432,
+  "fields": {
+    "name": "M.SIBAHI DIDIER",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 433,
+  "fields": {
+    "name": "MC IVORY COAST",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 434,
+  "fields": {
+    "name": "MME ABROGOUA",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 435,
+  "fields": {
+    "name": "PEGARD ARMAND",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 436,
+  "fields": {
+    "name": "POTE ARIELLE",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 437,
+  "fields": {
+    "name": "PROLOC",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 438,
+  "fields": {
+    "name": "SABIMEX",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 439,
+  "fields": {
+    "name": "SECO OLAM",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 440,
+  "fields": {
+    "name": "SOCIDA",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 441,
+  "fields": {
+    "name": "THIAM GROUP",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 442,
+  "fields": {
+    "name": "UNITRADING",
+    "region": 5
+  }
+},
+{
+  "model": "backend_core.customer",
+  "pk": 443,
+  "fields": {
+    "name": "JORDAN",
+    "region": 1
+  }
+}
+]

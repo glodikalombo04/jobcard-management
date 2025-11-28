@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-simple-history = "*"
+djangorestframework-simplejwt = "*"
+mysqlclient = "*"
+django-cors-headers = "*"
+django-import-export = "*"
+psycopg = {extras = ["binary"], version = ">=3.1"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
