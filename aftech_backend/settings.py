@@ -84,11 +84,11 @@ WSGI_APPLICATION = "aftech_backend.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "AFTECH_SOLUTION",         # Your PostgreSQL database name
+        "NAME": "aftech_solution",         # Your PostgreSQL database name
         "USER": "postgres",       # Your PostgreSQL username
-        "PASSWORD": "200104glodi", # Your PostgreSQL password
+        "PASSWORD": "capetown2025", # Your PostgreSQL password
         "HOST": "localhost",         # Or 'localhost'
-        "PORT": "5432",              # PostgreSQL default port
+        "PORT": "5433",              # PostgreSQL default port
     }
 }
 
@@ -146,7 +146,7 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("Bearer",),
-    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=120),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
     "ROTATE_REFRESH_TOKENS": True,
     "BLACKLIST_AFTER_ROTATION": True,
