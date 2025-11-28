@@ -1,3 +1,4 @@
+// ...existing code...
 import { useEffect, useState } from "react";
 import { fetchWithAuth } from "../../utils/api";
 import ImeiScannerModal from "./ImeiScannerModal";
@@ -7,11 +8,6 @@ type ItemType = {
     name: string;
     requires_serial: boolean;
     is_bulk: boolean;
-};
-
-type StockCount = {
-    itemTypeId: number;
-    quantity: number;
 };
 
 type UserProfile = {
@@ -41,6 +37,8 @@ const CreateStockTakeModal = ({
     const [submitting, setSubmitting] = useState(false);
     const [showImeiModal, setShowImeiModal] = useState(false);
     const [selectedItemType, setSelectedItemType] = useState<ItemType | null>(null);
+
+    // used to show small UI when hovering a row (fixes "hoveredItemId" yellow underline)
     const [hoveredItemId, setHoveredItemId] = useState<number | null>(null);
 
     const loadItemTypes = async () => {
@@ -295,29 +293,33 @@ const CreateStockTakeModal = ({
                                                                         {itemType.name}
                                                                     </div>
                                                                 </td>
-                                                                <td className="border px-4 py-2 relative">
-                                                                    <div
-                                                                        className="relative"
-                                                                        onMouseEnter={() => setHoveredItemId(itemType.id)}
-                                                                        onMouseLeave={() => setHoveredItemId(null)}
-                                                                    >
+                                                                <td
+                                                                    className="border px-4 py-2 relative"
+                                                                    onMouseEnter={() => setHoveredItemId(itemType.id)}
+                                                                    onMouseLeave={() => setHoveredItemId(null)}
+                                                                >
+                                                                    <div className="relative">
                                                                         <input
                                                                             type="text"
                                                                             value={stockCounts[itemType.id] || 0}
                                                                             disabled={true}
                                                                             className="w-full px-2 py-1 border border-gray-300 rounded bg-gray-100 cursor-not-allowed text-center font-semibold"
                                                                         />
+
+                                                                        {/* show scanned count badge when hovering the row */}
+                                                                        {hoveredItemId === itemType.id && (
+                                                                            <div className="absolute right-2 top-2 text-xs bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded">
+                                                                                {deviceImeis[itemType.id]?.length || 0} scanned
+                                                                            </div>
+                                                                        )}
                                                                     </div>
                                                                 </td>
                                                                 <td className="border px-4 py-2">
                                                                     <button
                                                                         onClick={() => handleImeiScanClick(itemType)}
                                                                         className="bg-[#FF3C00] text-white px-4 py-2 rounded hover:bg-[#e63900] flex items-center gap-2"
-                                                                    //rounded bg-[#FF3C00] text-white hover:bg-[#e63900]
-
                                                                     >
                                                                         {deviceImeis[itemType.id]?.length > 0 ? 'View Devices' : 'Scan Devices'}
-
                                                                     </button>
                                                                 </td>
                                                             </tr>
