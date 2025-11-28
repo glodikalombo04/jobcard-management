@@ -61,7 +61,7 @@ export default function JobsPerJobTypePie({
 
   const renderLabel = (entry: any) => {
     const pct = total ? ((entry.value / total) * 100).toFixed(0) : "0";
-    return `${entry.name} · ${pct}%`;
+    return `${pct}%`;
   };
 
   return (
@@ -78,12 +78,12 @@ export default function JobsPerJobTypePie({
                 cx="50%"
                 cy="50%"
                 innerRadius={70}
-                outerRadius={110}
-                paddingAngle={4}
+                outerRadius={130}
+                paddingAngle={10}
                 label={renderLabel}
                 labelLine={false}
                 isAnimationActive={true}
-                animationDuration={800}
+                animationDuration={900}
               >
                 {data.map((_, index) => (
                   <Cell
