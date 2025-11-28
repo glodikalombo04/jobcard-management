@@ -14,6 +14,7 @@ type Props = {
   endDate: string;
 };
 
+
 const COLORS = [
   "#06b6d4", // cyan
   "#0ea5e9", // sky
