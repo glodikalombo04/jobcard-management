@@ -61,7 +61,7 @@ export default function JobsPerJobTypePie({
 
   const renderLabel = (entry: any) => {
     const pct = total ? ((entry.value / total) * 100).toFixed(0) : "0";
-    return `${entry.name} · ${pct}%`;
+    return `${pct}%`;
   };
 
   return (
