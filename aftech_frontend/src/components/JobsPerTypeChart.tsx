@@ -211,7 +211,7 @@ export default function JobsPerJobTypePie({
               />
             ) : (
               <div aria-label="Santa" style={{ fontSize: santaSize * 0.6, lineHeight: 1 }} className="select-none">
-                🎅
+                
               </div>
             )}
           </div>
