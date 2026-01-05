@@ -41,7 +41,7 @@ export default function JobsPerJobTypePie({
   innerRadius,
   ringStrokeColor = "white",
   // Public Santa (Twemoji) — replace with any image URL you like
-  centerImageSrc = "https://static.vecteezy.com/system/resources/thumbnails/049/048/583/small_2x/illustration-of-santa-claus-in-a-classic-cartoon-style-free-vector.jpg",
+  centerImageSrc = "",
   ringThickness = 30,
 }: Props) {
   const [data, setData] = useState<JobTypeData[]>([]);
