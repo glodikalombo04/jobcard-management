@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django
+local_settings.py
+db.sqlite3
+
+# Ignore settings file
+aftech_backend/settings.py
+
+# Node / frontend
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
