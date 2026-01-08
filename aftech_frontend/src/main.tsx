@@ -14,6 +14,13 @@ import SupportAgentPage from "./pages/jobcards/SupportAgentPage";
 import JobTypePage from "./pages/jobcards/JobTypePage";
 import JobcardDashboard from "./pages/jobcards/JobcardDashboard";
 import StockTakePage from "./inventory/pages/StockTakePage";
+import Terms from "./pages/jobcards/terms";  
+// Note: for Terms page above,
+        // ✅
+import Clients from "./clients/pages/clients";
+import Reports from "./reports/reports";
+import Accounts from "./accounts/pages/accounts";
+
 
 
 createRoot(document.getElementById("root")!).render(
@@ -22,6 +29,7 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         {/* Public Route to Login */}
         <Route path="/login" element={<Login />} />
+        <Route path="/terms" element={<Terms />} />
         <Route element={<ProtectedRoute />}>
           <Route path="/" element={<BaseLayout />}>
             <Route path="jobcards/dashboard" element={<JobcardDashboard />} />
@@ -34,6 +42,10 @@ createRoot(document.getElementById("root")!).render(
             />
             <Route path="jobcards/job-types" element={<JobTypePage />} />
             <Route path="inventory" element={<StockTakePage />} />
+
+            <Route path="clients" element={<Clients />} />
+            <Route path="accounts" element={<Accounts />} />
+            <Route path="reports" element={<Reports />} />
   
           </Route>
         </Route>
